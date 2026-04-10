@@ -245,10 +245,11 @@ h1 {
 }
 
 
-.star {
+star {
   position: relative;
   display: inline-block;
-  color: #d0d0d0;
+  font-size: 1.18rem;
+  line-height: 1;
 }
 
 .star.full {
@@ -267,7 +268,9 @@ h1 {
   content: "★";
   position: absolute;
   left: 0;
+  top: 0;
   width: 50%;
+  height: 100%;
   overflow: hidden;
   color: var(--jade-deep);
 }
