@@ -185,12 +185,7 @@ h1 {
   border-top: 1px solid var(--line);
 }
 
-.emphasized {
-  padding: 12px 14px;
-  background: linear-gradient(180deg, var(--jade-soft) 0%, var(--jade-soft-2) 100%);
-  border: 1px solid #d3e8de;
-  border-radius: 14px;
-}
+
 
 .rating-box {
   display: flex;
