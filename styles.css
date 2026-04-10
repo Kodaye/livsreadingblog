@@ -243,3 +243,31 @@ h1 {
     padding: 16px;
   }
 }
+
+
+.star {
+  position: relative;
+  display: inline-block;
+  color: #d0d0d0;
+}
+
+.star.full {
+  color: var(--jade-deep);
+}
+
+.star.empty {
+  color: #d0d0d0;
+}
+
+.star.half {
+  color: #d0d0d0;
+}
+
+.star.half::before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: var(--jade-deep);
+}
