@@ -243,34 +243,3 @@ h1 {
     padding: 16px;
   }
 }
-
-
-star {
-  position: relative;
-  display: inline-block;
-  font-size: 1.18rem;
-  line-height: 1;
-}
-
-.star.full {
-  color: var(--jade-deep);
-}
-
-.star.empty {
-  color: #d0d0d0;
-}
-
-.star.half {
-  color: #d0d0d0;
-}
-
-.star.half::before {
-  content: "★";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  color: var(--jade-deep);
-}
